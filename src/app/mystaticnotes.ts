@@ -30,4 +30,19 @@ export const NOTES: Note[] = [
         title: 'Steve Jobs',
         text: "The only way to do great work is to love what you do."
     },
+    {
+        id: 6,
+        title: 'Albert Einstein',
+        text: "Life is like riding a bicycle. To keep your balance, you must keep moving."
+    },
+    {
+        id: 7,
+        title: 'Maya Angelou',
+        text: "I've learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel."
+    },
+    {
+        id: 8,
+        title: 'Walt Disney',
+        text: "The way to get started is to quit talking and begin doing."
+    },
 ]
