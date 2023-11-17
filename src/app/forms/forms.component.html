@@ -1,0 +1,11 @@
+<form (submit)="showName()">
+    <input type="text" [formControl]="name" name="name" />
+    <input type="submit" value="Submit">
+</form>
+
+<form (ngSubmit)="onSubmit()">
+    <input type="text" [(ngModel)]="name2" name="name2" />
+    <input type="submit" value="Submit">
+</form>
+<p *ngIf="submitted">Hi, {{ name2 }}</p>
+
