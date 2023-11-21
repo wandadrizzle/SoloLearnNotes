@@ -1,0 +1,9 @@
+<div *ngIf="note" id="note-container"> <!--We added the *ngIf directive, to check that the note object is not undefined, because an incorrect id could be passed as a parameter.-->
+  <span class="note-title">{{ note.title }}</span>
+  <span class="note-id">ID: {{ note.id }}</span>
+  <span class="note-text">{{ note.text }}</span>
+  </div>
+  <nav>
+    <button routerLink="/">Back to List</button>
+    <button (click)="delete()">Delete Note</button>
+  </nav>

@@ -9,6 +9,12 @@ import { NgFor } from '@angular/common';
 import { NotesListComponent } from './notes-list/notes-list.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { FormsComponent } from './forms/forms.component';
+import { NewNoteComponent } from './new-note/new-note.component';
+import { HomeComponent } from './home/home.component';
+import { ContactsComponent } from './contacts/contacts.component';
+import { NotFoundComponent } from './not-found/not-found.component';
+import { RouterModule } from '@angular/router';
+import { NoteDetailComponent } from './note-detail/note-detail.component';
 
 
 @NgModule({
@@ -16,14 +22,19 @@ import { FormsComponent } from './forms/forms.component';
     AppComponent,
     HeaderComponent,
     NotesListComponent,
-    FormsComponent
+    FormsComponent,
+    NewNoteComponent,
+    HomeComponent,
+    ContactsComponent,
+    NotFoundComponent,
+    NoteDetailComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgFor, //This directive has been added as a dependency using the imports property.
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -8,7 +8,10 @@ import { Component, OnInit } from '@angular/core';
     <h1>
      {{title}}
     </h1>
-
+    <!--<nav>
+      <a href="">Home</a>
+      <a href="">Contacts</a>
+    </nav>-->
     <!--OTHER TESTS AND DEMOS-->
     <!--<button (click)="login()">Click me</button>
     <p [class.red]="isRed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga at neque placeat accusantium? Facilis dolorum eveniet sequi mollitia dolore numquam odit consequatur autem? Maxime architecto deserunt illum, odit voluptates earum!</p>
@@ -22,7 +25,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  title:string="Wanda's Notes" //defining a property
+  title:string="Wanda's Favourite Quotes" //defining a property
   isRed:boolean=false;
   products=['writing', 'coding','talking','fitness'];
   constructor() { }
